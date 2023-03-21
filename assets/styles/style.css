@@ -3,7 +3,7 @@
 
 header{
     background-color: #0020F4;
-    padding: 27px 50px 270px 50px;
+    padding: 27px 100px 270px 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,7 +39,9 @@ ul button{
     border: none;
     border-radius: 28px;
     margin-left: 42px;
+    cursor: pointer;
 }
+
 
 /* section */
 
@@ -86,7 +88,7 @@ section p{
 section button{
     display: block;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 58px;
     color: #FFFFFF;
     font-size: 16px;
     font-family: bold;
@@ -94,4 +96,151 @@ section button{
     border: none;
     border-radius: 28px;
     padding: 18px 77px 18px 57px;
+    cursor: pointer;
 }
+button:hover{
+    font-size: 105%;
+}
+/* footer */
+
+footer{
+    margin-top: 180px;
+	background-color: #0A22F4;
+	padding: 275px 100px 40px 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    "h2 ."
+    "p registration"
+    "contact registration"
+    "ending ending";
+}
+/* contact side */
+h2{
+	font-size: 32px;
+	color: #FFFFFF;
+	font-family: "bold";
+    grid-area: h2;
+}
+.contact-side{
+    grid-area: contact;
+}
+footer p{
+	font-size: 16px;
+	max-width: 463px;
+	margin-top: 30px;
+	color: #FFFFFF;
+	font-family: "normal";
+    grid-area: p;
+}
+iframe{
+	border-radius: 15px;
+	width: 463px;
+	height: 197px;
+	margin-bottom: 92px;
+    box-shadow: -10px 10px #FFFFFF;
+}
+.footer-buttons{
+	display: flex;
+	align-items: center;
+}
+.mobile, .email{
+	display: flex;
+	align-items: center;
+	font-family: "bold";
+}
+.mobile img, .email img{
+	background-color: #FFFFFF;
+	padding: 22px;
+	margin-right: 20px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+}
+.mobile a, .email a{
+	font-size: 22px;
+	color: #FFFFFF;
+}
+.a-mobile{
+	margin-right: 98px;
+}
+/* registration side */
+.registration-side{
+    max-width: 463px;
+    width: 100%;
+    margin-top: 60px;
+    grid-area: registration;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: bold;
+    color: #FFFFFF;
+}
+input, textarea{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: normal;
+    height: 41px;
+    margin-top: 8px;
+    margin-bottom: 40px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    outline: transparent;
+
+}
+textarea{
+    height: 121px;
+    resize: none;
+}
+footer button{
+    font-size: 16px;
+    color: #171717;
+    background-color: #FFFFFF;
+    font-family: bold;
+    max-width: 151px;
+    border: none;
+    border-radius: 28px;
+    padding: 18px 45px 18px 36px;
+    margin-left: auto;
+}
+/* ending */
+.ending{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 165px;
+	padding-top: 40px;
+	color: #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	font-family: "bold";
+    grid-area: ending;
+}
+.copyright{
+	font-size: 16px;
+}
+.made-in, .made-out{
+	font-size: 13px;
+}
+.heart-logo{
+	width: 26px;
+	height: 26px;
+	margin-left: 15px;
+	margin-right: 10px;
+}
+.smartweb-icon{
+	width: 121px;
+	height: 35px;
+	margin-left: 30px;
+}
+.right-side{
+	display: flex;
+	align-items: center;
+}
+.brgr-menu{
+    display: none;
+}
+/* the end */
