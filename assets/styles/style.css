@@ -135,8 +135,8 @@ footer p{
 }
 iframe{
 	border-radius: 15px;
-	width: 463px;
-	height: 197px;
+	max-width: 463px;
+	max-height: 197px;
 	margin-bottom: 92px;
     box-shadow: -10px 10px #FFFFFF;
 }
@@ -168,8 +168,10 @@ iframe{
 .registration-side{
     max-width: 463px;
     width: 100%;
+    margin-left: auto;
     margin-top: 60px;
     grid-area: registration;
+
 }
 form{
     width: 100%;
