@@ -171,7 +171,6 @@ iframe{
     margin-left: auto;
     margin-top: 60px;
     grid-area: registration;
-
 }
 form{
     width: 100%;
@@ -192,7 +191,6 @@ input, textarea{
     border: none;
     border-bottom: 1px solid rgba(255, 255, 255, 1);
     outline: transparent;
-
 }
 textarea{
     height: 121px;
@@ -246,7 +244,6 @@ footer button{
     display: none;
 }
 
-
 /* media */
 
 @media (width <= 1024px) {
@@ -287,22 +284,6 @@ footer button{
         max-height: 90px;
         object-fit: cover;
     }
-    .first-h-img{
-        grid-area: first;
-    }
-    .second-h-img{
-        grid-area: second;
-    }
-    .third-h-img{
-        grid-area: third;
-    }
-    .fourt-h-img{
-        grid-area: fourth;
-    }
-    section p{
-        width: 100%;
-        font-size: 14px;
-    }
     .hiding-p{
         display: none;
     }
@@ -340,7 +321,6 @@ footer button{
         margin-top: 0px;
         margin-bottom: 40px;
     }
-
     input, textarea{
         font-size: 13px;
         height: 21px;
@@ -353,7 +333,6 @@ footer button{
     footer button{
         max-width: 100%;
         width: 100%;
-        
     }
     iframe{
         max-width: 100%;
