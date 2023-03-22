@@ -225,6 +225,10 @@ footer button{
 .made-in, .made-out{
 	font-size: 13px;
 }
+.made-with{
+    display: flex;
+    align-items: center;
+}
 .heart-logo{
 	width: 26px;
 	height: 26px;
