@@ -316,15 +316,15 @@ footer button{
     /* footer */
     footer{
         margin-top: 0px;
-        padding: 30px 0px 40px 20px;
+        padding: 30px 0px 40px 0px;
         display: grid;
-        grid-template-columns: 90%;
+        grid-template-columns: 5% 90% 5%;
         grid-template-areas: 
-        "h2"
-        "registration"
-        "map"
-        "cozy"
-        "burger";
+        ". h2 ."
+        ". registration ."
+        ". map ."
+        ". cozy ."
+        ". burger .";
     }
     footer p{
         display: none;
@@ -413,6 +413,9 @@ footer button{
     }
     .smartweb-icon{
         margin: 0px;
+    }
+    .brgr{
+        grid-area: burger;
     }
     .brgr-menu{
         display: block;
