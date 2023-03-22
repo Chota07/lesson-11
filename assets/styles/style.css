@@ -245,4 +245,173 @@ footer button{
 .brgr-menu{
     display: none;
 }
+
+
+/* media */
+
+@media (width <= 1024px) {
+    /* header */
+    header{
+        padding: 40px 0px 90px 0px;
+        max-height: 185px;
+        border-radius: 0px 0px 20px 20px;
+    }
+    .skyhouse-logo{
+        max-width: 97px;
+        max-height: 55px;
+        margin: auto;
+    }
+    nav{
+        display: none;
+    }
+    /* section */
+    section{
+        margin-top: -50px;
+        max-width: 90%;
+    }
+    h1{
+        margin-top: 16px;
+        margin-bottom: 40px;
+        font-size: 18px;
+    }
+    .hiding-image{
+        display: none;
+    }
+    .helping-images{
+        margin-bottom: 40px;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .helping-images img{
+        max-width: 162px;
+        max-height: 90px;
+        object-fit: cover;
+    }
+    .first-h-img{
+        grid-area: first;
+    }
+    .second-h-img{
+        grid-area: second;
+    }
+    .third-h-img{
+        grid-area: third;
+    }
+    .fourt-h-img{
+        grid-area: fourth;
+    }
+    section p{
+        width: 100%;
+        font-size: 14px;
+    }
+    .hiding-p{
+        display: none;
+    }
+    section button{
+        width: 100%;
+        padding: 20px 91px 20px 75px;
+        font-size: 13px;
+        margin-top: 12px;
+        margin-bottom: 40px;
+    }
+    /* footer */
+    footer{
+        margin-top: 0px;
+        padding: 30px 0px 40px 20px;
+        display: grid;
+        grid-template-columns: 90%;
+        grid-template-areas: 
+        "h2"
+        "registration"
+        "map"
+        "cozy"
+        "burger";
+    }
+    footer p{
+        display: none;
+    }
+    h2{
+        font-size: 18px;
+        grid-area: h2;
+        margin-bottom: 40px;
+    }
+    .registration-side{
+        grid-area: registration;
+        max-width: 100%;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .contact-side{
+        grid-area: map;
+        width: 100%;
+    }
+    footer button{
+        max-width: 100%;
+        width: 100%;
+        
+    }
+    iframe{
+        max-width: 100%;
+        width: 100%;
+        box-shadow: none;
+        margin-bottom: 44px;
+    }
+    .footer-buttons{
+        max-width: 100%;
+        width: 100%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    .mobile img, .email img{
+        background-color: white;
+        padding: 0px;
+        margin-right: 12px;
+        width: 20px;
+        height: 20px;
+        border-radius: 20%;
+    }
+    .mobile a, .email a{
+        font-size: 13px;
+        color: #FFFFFF;
+    }
+    .a-mobile{
+        margin-right: 0px;
+    }
+    .ending{
+        margin-top: 44px;
+        padding-top: 50px;
+        grid-area: cozy;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .right-side{
+        margin-bottom: 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    .made-with{
+        display: flex;
+        justify-content: center;
+        margin-right: 30px;
+    }
+    .copyright{
+        font-size: 13px;
+    }
+    .heart-logo{
+        width: 20px;
+        height: 17px;
+        margin-left: 18px;
+        margin-right: 14px;
+    }
+    .smartweb-icon{
+        margin: 0px;
+    }
+    .brgr-menu{
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        grid-area: burger;
+    }
+}
 /* the end */
