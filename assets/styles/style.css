@@ -250,7 +250,7 @@ footer button{
 
 /* media */
 
-@media (max-width: 1024px) {
+@media only screen and (min-width: 150px) and (max-width: 1024px){
     /* header */
     header{
         padding: 40px 0px 90px 0px;
